@@ -1,0 +1,27 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@3-/proto':
+    specifier: ^2.0.24
+    version: 2.0.24
+
+packages:
+
+  /@3-/proto@2.0.24:
+    resolution: {integrity: sha512-EitTBKj8tPSkfk82ouu4EpJ03INSHLkuEKFfmpn3w5DHULvdRtfVP0rz8QKW7vGdJchscfwp3HFfCA3pCWaqVA==}
+    dependencies:
+      '@3-/utf8': 0.0.3
+      nanoassert: 2.0.0
+    dev: false
+
+  /@3-/utf8@0.0.3:
+    resolution: {integrity: sha512-BLqh1MiPrtPLqtD6h7c1wXrsO1kw7Zp1AJcKkac2q4UZ/JPtayOqYXJvDM3oeTAbOtOZgMm4TnbOR5V8myXpBg==}
+    dev: false
+
+  /nanoassert@2.0.0:
+    resolution: {integrity: sha512-7vO7n28+aYO4J+8w96AzhmU8G+Y/xpPDJz/se19ICsqj/momRbb9mh9ZUtkoJ5X3nTnPdhEJyc0qnM6yAsHBaA==}
+    dev: false

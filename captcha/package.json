@@ -1,0 +1,16 @@
+{
+  "name": "@5-/captcha",
+  "version": "0.0.7",
+  "repository": "https://github.com/3TiSite/api-proto-js.git",
+  "homepage": "https://github.com/3TiSite/api-proto-js/tree/main/captcha",
+  "author": "3Ti.Site@gmail.com",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./index.js",
+    "./*": "./*"
+  },
+  "dependencies": {
+    "@3-/proto": "^2.0.24"
+  },
+  "type": "module"
+}

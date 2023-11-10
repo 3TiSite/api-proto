@@ -1,0 +1,29 @@
+```proto
+syntax = "proto3";
+
+package api;
+
+message Uid
+{
+  uint64 id = 1;
+}
+
+message User
+{
+  uint64 id = 1;
+  string name = 2;
+}
+
+message UserState
+{
+  uint64 id = 1;
+  string name = 2;
+  string account = 3;
+  bool exit = 4;
+}
+
+message UserStateLi
+{
+  repeated UserState li = 1;
+}
+```
