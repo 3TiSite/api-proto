@@ -10,7 +10,7 @@
     "./*": "./*"
   },
   "dependencies": {
-    "@3-/proto": "^2.0.24"
+    "@3-/proto": "^2.0.25"
   },
   "type": "module"
 }

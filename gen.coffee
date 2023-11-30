@@ -9,7 +9,7 @@ ROOT = uridir(import.meta)
 await protopkg(
   join(
     dirname(ROOT)
-    'srv/rust/url'
+    'srv/mod'
   )
   ROOT
 )

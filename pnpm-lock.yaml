@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@3-/coffee_plus':
-    specifier: ^0.0.5
-    version: 0.0.5
+    specifier: ^0.0.6
+    version: 0.0.6
   '@3-/jsext':
     specifier: ^0.0.5
     version: 0.0.5
@@ -21,8 +21,8 @@ dependencies:
     specifier: ^0.0.3
     version: 0.0.3
   '@3-/protopkg':
-    specifier: ^0.1.14
-    version: 0.1.14
+    specifier: ^0.1.27
+    version: 0.1.27
   '@3-/read':
     specifier: ^0.0.1
     version: 0.0.1
@@ -55,8 +55,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@3-/coffee_plus@0.0.5:
-    resolution: {integrity: sha512-3vBOK5cHxhOw6+B2nG9CJPeJZcuW02MADjybGKDRDvYiYVdnt2DdD+3P3YwJp5DlWtxfI1AKmcXfd74rlMxiIw==}
+  /@3-/coffee_plus@0.0.6:
+    resolution: {integrity: sha512-WKzCBPxStiriZT8IieK+rj235mdW6UOeuHFqdjS/2yauzCDZH8pbBnSCBtAZHVdV2WMBM8GG3sLcHcAQ4ED/aQ==}
     hasBin: true
     dependencies:
       '@3-/camel': 0.0.2
@@ -96,8 +96,8 @@ packages:
       yargs: 17.7.2
     dev: false
 
-  /@3-/nt@0.0.2:
-    resolution: {integrity: sha512-cNQIOkz+sPbnlEREJFL10yL9+llJgq2r2Xf1pFDQTaEFoTH02XUEp6eybisPGvJSRgC9Znpf0W42SQKXsFnVAA==}
+  /@3-/nt@0.1.1:
+    resolution: {integrity: sha512-35do0Xi7DFX4zVMa+UOy3BhKQFA3rsunJ2z56ZzJR90zv5bY44YNBEGYEOHjOP8mZJW2U365C5YAF5jKqYkaQA==}
     dependencies:
       '@3-/read': 0.0.1
       '@3-/write': 0.0.1
@@ -107,20 +107,20 @@ packages:
     resolution: {integrity: sha512-RBaGAC/fUWAlt52mk54x/ky0sIHVBMKIPeCdwGTwwZ5T2d+0oLf7u4sPsMuPdP1qeRx4BvrFBsL/WEut9cEPiw==}
     dev: false
 
-  /@3-/protojs@0.1.8:
-    resolution: {integrity: sha512-MNUBadtJa7+7Bq2Fwy4iX65m71a0HKYNGqh9HOYe9kChqTp06zz+96NegjbHNDBiUCgQFYS0jPjm3BWU8rKJCg==}
+  /@3-/protojs@0.1.10:
+    resolution: {integrity: sha512-5RdB9Da10OcAbaSei3gEBNizkQdYvYSDouDCcHZjJlC8nNWeQBe872LBzFivcqnsF/jsD2CkEAdiIO9mj/8lcQ==}
     dependencies:
       '@3-/snake': 0.0.2
       protobufjs: 7.2.5
     dev: false
 
-  /@3-/protopkg@0.1.14:
-    resolution: {integrity: sha512-iO3wsq2uqE3pboskA36heJ0JjhEE+6nP7H/NrvLNAZHJsa73TTAWQhXVcVpqYgDJE62s0P8XwiuZMjKlbmPfyg==}
+  /@3-/protopkg@0.1.27:
+    resolution: {integrity: sha512-49WYlhU6q7lKc1ZBQoc7RYCHEO9H5rNOETbjoPDOF90vCofrau8nwJbm+yhGMJ7jMrWFxllHNR1jRKvnulbQ+A==}
     dependencies:
-      '@3-/nt': 0.0.2
-      '@3-/protojs': 0.1.8
+      '@3-/nt': 0.1.1
+      '@3-/protojs': 0.1.10
       '@3-/read': 0.0.1
-      '@3-/split': 0.0.2
+      '@3-/split': 0.1.1
       '@3-/walk': 0.0.1
       '@3-/write': 0.0.1
     dev: false
@@ -133,8 +133,8 @@ packages:
     resolution: {integrity: sha512-k6P7l8QyMcs8vg93syHsuFDOk2ttEHQseOtZX1KBroCdAhcyEVDtMk7gTeGzB9VJGFMmHm9hDlVaZT+N9f3kTQ==}
     dev: false
 
-  /@3-/split@0.0.2:
-    resolution: {integrity: sha512-xxfc0l9vH21axNoECuXVvsl/7xiPBINY3TyqHQjbg27BGpJxD9C/k7HZ8Z20TtO7lfymo1+D5ULNTXxioCzgXg==}
+  /@3-/split@0.1.1:
+    resolution: {integrity: sha512-LnuvzBdAvZj0SFN+92p+d6diYBjxT5NyVN4ngnNcsxoVyPjc75e4Ns/F/xQ/cnkGMmfB65ldxkvLjOXqQd0X7A==}
     dev: false
 
   /@3-/uridir@0.0.2:

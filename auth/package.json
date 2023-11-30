@@ -1,6 +1,6 @@
 {
   "name": "@5-/auth",
-  "version": "0.0.11",
+  "version": "0.1.6",
   "repository": "https://github.com/3TiSite/api-proto-js.git",
   "homepage": "https://github.com/3TiSite/api-proto-js/tree/main/auth",
   "author": "3Ti.Site@gmail.com",
@@ -9,8 +9,12 @@
     ".": "./index.js",
     "./*": "./*"
   },
+  "devDependencies": {
+    "@~3/lang": "../../site/node_modules/@~3/lang"
+  },
   "dependencies": {
-    "@3-/proto": "^2.0.24"
+    "@3-/proto": "^2.0.25",
+    "@~3/captcha": "^0.1.49"
   },
   "type": "module"
 }

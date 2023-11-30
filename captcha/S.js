@@ -1,3 +1,3 @@
 import S from '~/lib/S.js'
-
-export const captcha = ()=>S.captcha()
+import {Captcha} from './index.js'
+export const captcha = async ()=>Captcha(await S.captcha())

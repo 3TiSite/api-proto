@@ -1,6 +1,5 @@
-import {Translated} from './index.js'
 import S from '~/lib/S.js'
-
+import {Translated} from './index.js'
 /**
  * @param {String} from_lang
  * @param {String} to_lang

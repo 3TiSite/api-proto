@@ -11,7 +11,9 @@ message Uid
 message User
 {
   uint64 id = 1;
-  string name = 2;
+  uint64 ver = 2;
+  uint32 lang = 3;
+  string name = 4;
 }
 
 message UserState
@@ -25,5 +27,15 @@ message UserState
 message UserStateLi
 {
   repeated UserState li = 1;
+}
+
+message Mail
+{
+  string mail = 1;
+}
+
+message ConfMeta
+{
+  string mail = 1;
 }
 ```
